@@ -8,25 +8,17 @@
 //        888       888 d88P     888 888    Y888     888     888   T88b d88P     888
 
 #include "AI.h"
-#include <iostream>
+#include <bits/stdc++.h>
+#include "AI/tools/tools.h"
+
 using namespace std;
-enum colors {red=30 , blue , white};
-void print(World *world);
-void print_map(World *world);
-
-
 
 void AI::preProcess(World *world) {
-
-
-    world->pickHero(SENTRY);
-
 }
 
 void AI::pick(World *world) {
 
-
-
+    world->pickHero(SENTRY);
 
 }
 
@@ -36,31 +28,4 @@ void AI::move(World *world) {
 
 void AI::action(World *world) {
     print_map(world);
-}
-
-void print_map(World *world){
-    world->getHeroConstants()[0]->getName();
-    for(auto rows : world->getMap().getCells()){
-        for(auto cell : rows )
-        {
-            if(cell->isWall())
-                cout << '#';
-            else if(cell->isInMyRespawnZone())
-                cout << "?";
-            else if(cell->isInObjectiveZone())
-                cout << "@";
-            else if(cell->isInOppRespawnZone())
-                cout<<"!";
-            else if(cell->isInVision())
-                cout << "V";
-            else
-                cout<<' ';
-        }
-        cout<<endl ;
-    }
-}
-
-void print(){
-    cout << "\033[1;31mb\033[0m";
-
 }

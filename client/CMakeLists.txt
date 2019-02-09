@@ -7,7 +7,7 @@ set (CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall -O2")
 
 file (GLOB_RECURSE Sources src/*)
 
-add_executable (client ${Sources})
+add_executable (client ${Sources} src/AI/tools/tools.cpp src/AI/tools/tools.h)
 
 target_include_directories (client PRIVATE src/)
 
