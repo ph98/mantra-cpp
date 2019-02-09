@@ -20,8 +20,7 @@ void AI::preProcess(World *world) {
 
 
     world->pickHero(SENTRY);
-//    world->pickHero(world->getHeroConstants()[1]->getName());
-//    world->pickHero(world->getHeroConstants()[2]->getName());
+
 
 
 }
