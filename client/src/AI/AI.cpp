@@ -20,6 +20,7 @@ void AI::preProcess(World *world) {
 
 
     world->pickHero(SENTRY);
+    world->pickHero(BLASTER);
 
 
 
