@@ -14,12 +14,11 @@
 using namespace std;
 
 void AI::preProcess(World *world) {
+//    world->getMap().getObjectiveZone()[0].
 }
 
 void AI::pick(World *world) {
-
-    world->pickHero(SENTRY);
-
+    world->pickHero(HeroName(rand()%4));
 }
 
 void AI::move(World *world) {
