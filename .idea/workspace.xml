@@ -19,38 +19,6 @@
     <list default="true" id="f7058817-a68a-4190-b67c-1291c837ecf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/AI/AI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AI/AI.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/AI/AI.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Core/Controller.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Network/Network.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/CMakeFiles/client.dir/src/Utility/Logger.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/client/client" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/jsoncpp/src/lib_json/libjsoncpp.a" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -228,7 +196,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5201000" />
+    <option name="totallyTimeSpent" value="5435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1318" height="768" extended-state="6" />
@@ -290,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
