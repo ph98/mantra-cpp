@@ -86,7 +86,7 @@ string
 ostream
 -
 
-/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_reader.cpp
+/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_reader.cpp
 json/assertions.h
 -
 json/reader.h
@@ -94,7 +94,7 @@ json/reader.h
 json/value.h
 -
 json_tool.h
-/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_tool.h
+/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_tool.h
 utility
 -
 cstdio
@@ -114,11 +114,11 @@ set
 limits
 -
 
-/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_tool.h
+/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_tool.h
 clocale
 -
 
-/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_value.cpp
+/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_value.cpp
 json/assertions.h
 -
 json/value.h
@@ -142,15 +142,15 @@ cstddef
 algorithm
 -
 json_valueiterator.inl
-/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_valueiterator.inl
+/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_valueiterator.inl
 
-/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_valueiterator.inl
+/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_valueiterator.inl
 
-/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_writer.cpp
+/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_writer.cpp
 json/writer.h
 -
 json_tool.h
-/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_tool.h
+/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_tool.h
 iomanip
 -
 memory
