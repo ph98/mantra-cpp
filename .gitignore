@@ -1,5 +1,8 @@
 # CLion project files
-.idea/
+*/.idea/*
+/.idea/*
+/.idea
+.idea
 
 # CLion build directories
 cmake-build-debug/
