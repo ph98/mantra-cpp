@@ -8,265 +8,271 @@
 		<Option virtualFolders="CMake Files\;CMake Files\client\;CMake Files\jsoncpp\;CMake Files\jsoncpp\src\;CMake Files\jsoncpp\src\lib_json\;CMake Files\jsoncpp\src\jsontestrunner\;CMake Files\jsoncpp\src\test_lib_json\;CMake Files\jsoncpp\pkg-config\;CMake Files\jsoncpp\include\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jsoncpp_lib_static">
-				<Option output="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/libjsoncpp.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json"/>
+				<Option output="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/libjsoncpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include"/>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/../../include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib_static"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib_static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jsoncpp_lib_static/fast">
-				<Option output="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/libjsoncpp.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json"/>
+				<Option output="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/libjsoncpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include"/>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/../../include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib_static/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib_static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jsoncpp_readerwriter_tests">
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_readerwriter_tests"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_readerwriter_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jsontestrunner_exe">
-				<Option output="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/jsontestrunner_exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner"/>
+				<Option output="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/jsontestrunner_exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include"/>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/../../include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jsontestrunner_exe/fast">
-				<Option output="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/jsontestrunner_exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner"/>
+				<Option output="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/jsontestrunner_exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include"/>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/../../include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jsoncpp_check">
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_check"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_check"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jsoncpp_test">
-				<Option output="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/jsoncpp_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json"/>
+				<Option output="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/jsoncpp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include"/>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/../../include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jsoncpp_test/fast">
-				<Option output="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/jsoncpp_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json"/>
+				<Option output="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/jsoncpp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include"/>
-					<Add directory="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/../../include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/include"/>
+					<Add directory="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/json/assertions.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/json/assertions.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/json/config.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/json/config.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/json/features.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/json/features.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/json/forwards.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/json/forwards.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/json/reader.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/json/reader.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/json/value.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/json/value.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/json/version.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/json/version.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/json/writer.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/json/writer.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner/main.cpp">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner/main.cpp">
 			<Option target="jsontestrunner_exe"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_reader.cpp">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_reader.cpp">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_tool.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_tool.h">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_value.cpp">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_value.cpp">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_valueiterator.inl">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_valueiterator.inl">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_writer.cpp">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_writer.cpp">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/version.h.in">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/version.h.in">
 			<Option target="jsoncpp_lib_static"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/test_lib_json/jsontest.cpp">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/test_lib_json/jsontest.cpp">
 			<Option target="jsoncpp_test"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/test_lib_json/jsontest.h">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/test_lib_json/jsontest.h">
 			<Option target="jsoncpp_test"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/test_lib_json/main.cpp">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/test_lib_json/main.cpp">
 			<Option target="jsoncpp_test"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/CMakeLists.txt">
+		<Unit filename="/home/mohamad/game/mantra-cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/client/CMakeLists.txt">
+		<Unit filename="/home/mohamad/game/mantra-cpp/client/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\client\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/CMakeLists.txt">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\jsoncpp\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/version.in">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/version.in">
 			<Option virtualFolder="CMake Files\jsoncpp\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/CMakeLists.txt">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\jsoncpp\src\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/CMakeLists.txt">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\jsoncpp\src\lib_json\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/version.h.in">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/version.h.in">
 			<Option virtualFolder="CMake Files\jsoncpp\src\lib_json\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner/CMakeLists.txt">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\jsoncpp\src\jsontestrunner\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/test_lib_json/CMakeLists.txt">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/src/test_lib_json/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\jsoncpp\src\test_lib_json\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/pkg-config/jsoncpp.pc.in">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/pkg-config/jsoncpp.pc.in">
 			<Option virtualFolder="CMake Files\jsoncpp\pkg-config\"/>
 		</Unit>
-		<Unit filename="/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include/CMakeLists.txt">
+		<Unit filename="/home/mohamad/game/mantra-cpp/jsoncpp/include/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\jsoncpp\include\"/>
 		</Unit>
 	</Project>

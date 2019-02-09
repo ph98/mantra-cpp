@@ -6,5 +6,5 @@ CXX_FLAGS = -g -Wall -O0 -g   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/parham/Desktop/AIC19-Client-Cpp/client/src -I/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/../../include 
+CXX_INCLUDES = -I/home/mohamad/game/mantra-cpp/client/src -I/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/../../include 
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parham/Desktop/AIC19-Client-Cpp
+CMAKE_SOURCE_DIR = /home/mohamad/game/mantra-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mohamad/game/mantra-cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/depend.make
@@ -59,42 +59,42 @@ include jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/flags.make
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o: jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/flags.make
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o: ../jsoncpp/src/lib_json/json_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o -c /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_reader.cpp
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_reader.cpp > CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_reader.cpp > CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.i
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_reader.cpp -o CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_reader.cpp -o CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.s
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o: jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/flags.make
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o: ../jsoncpp/src/lib_json/json_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o -c /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_value.cpp
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_value.cpp > CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_value.cpp > CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.i
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_value.cpp -o CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_value.cpp -o CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.s
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o: jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/flags.make
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o: ../jsoncpp/src/lib_json/json_writer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_writer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o -c /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_writer.cpp
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_writer.cpp > CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_writer.cpp > CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.i
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_writer.cpp -o CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_writer.cpp -o CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.s
 
 # Object files for target jsoncpp_lib_static
 jsoncpp_lib_static_OBJECTS = \
@@ -110,9 +110,9 @@ jsoncpp/src/lib_json/libjsoncpp.a: jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_s
 jsoncpp/src/lib_json/libjsoncpp.a: jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o
 jsoncpp/src/lib_json/libjsoncpp.a: jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/build.make
 jsoncpp/src/lib_json/libjsoncpp.a: jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libjsoncpp.a"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && $(CMAKE_COMMAND) -P CMakeFiles/jsoncpp_lib_static.dir/cmake_clean_target.cmake
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jsoncpp_lib_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libjsoncpp.a"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && $(CMAKE_COMMAND) -P CMakeFiles/jsoncpp_lib_static.dir/cmake_clean_target.cmake
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jsoncpp_lib_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/build: jsoncpp/src/lib_json/libjsoncpp.a
@@ -120,10 +120,10 @@ jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/build: jsoncpp/src/lib_js
 .PHONY : jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/build
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/clean:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json && $(CMAKE_COMMAND) -P CMakeFiles/jsoncpp_lib_static.dir/cmake_clean.cmake
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json && $(CMAKE_COMMAND) -P CMakeFiles/jsoncpp_lib_static.dir/cmake_clean.cmake
 .PHONY : jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/clean
 
 jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/depend:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parham/Desktop/AIC19-Client-Cpp /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohamad/game/mantra-cpp /home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json /home/mohamad/game/mantra-cpp/cmake-build-debug /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src
+# Install script for directory: /home/mohamad/game/mantra-cpp/jsoncpp/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/cmake_install.cmake")
-  include("/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/cmake_install.cmake")
-  include("/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/test_lib_json/cmake_install.cmake")
+  include("/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/cmake_install.cmake")
+  include("/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/cmake_install.cmake")
+  include("/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/test_lib_json/cmake_install.cmake")
 
 endif()
 

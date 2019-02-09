@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parham/Desktop/AIC19-Client-Cpp
+CMAKE_SOURCE_DIR = /home/mohamad/game/mantra-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mohamad/game/mantra-cpp/cmake-build-debug
 
 # Utility rule file for jsoncpp_check.
 
@@ -67,10 +67,10 @@ jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/build: jsoncpp_check
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/build
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/clean:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && $(CMAKE_COMMAND) -P CMakeFiles/jsoncpp_check.dir/cmake_clean.cmake
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && $(CMAKE_COMMAND) -P CMakeFiles/jsoncpp_check.dir/cmake_clean.cmake
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/clean
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/depend:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parham/Desktop/AIC19-Client-Cpp /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohamad/game/mantra-cpp /home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner /home/mohamad/game/mantra-cpp/cmake-build-debug /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/depend
 

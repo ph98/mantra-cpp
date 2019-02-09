@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parham/Desktop/AIC19-Client-Cpp
+CMAKE_SOURCE_DIR = /home/mohamad/game/mantra-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mohamad/game/mantra-cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include client/CMakeFiles/client.dir/depend.make
@@ -59,289 +59,289 @@ include client/CMakeFiles/client.dir/flags.make
 
 client/CMakeFiles/client.dir/src/AI/AI.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/AI/AI.cpp.o: ../client/src/AI/AI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object client/CMakeFiles/client.dir/src/AI/AI.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/AI/AI.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/AI/AI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object client/CMakeFiles/client.dir/src/AI/AI.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/AI/AI.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/AI/AI.cpp
 
 client/CMakeFiles/client.dir/src/AI/AI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/AI/AI.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/AI/AI.cpp > CMakeFiles/client.dir/src/AI/AI.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/AI/AI.cpp > CMakeFiles/client.dir/src/AI/AI.cpp.i
 
 client/CMakeFiles/client.dir/src/AI/AI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/AI/AI.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/AI/AI.cpp -o CMakeFiles/client.dir/src/AI/AI.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/AI/AI.cpp -o CMakeFiles/client.dir/src/AI/AI.cpp.s
 
 client/CMakeFiles/client.dir/src/Core/Controller.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Core/Controller.cpp.o: ../client/src/Core/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object client/CMakeFiles/client.dir/src/Core/Controller.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Controller.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object client/CMakeFiles/client.dir/src/Core/Controller.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Controller.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Core/Controller.cpp
 
 client/CMakeFiles/client.dir/src/Core/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Core/Controller.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Controller.cpp > CMakeFiles/client.dir/src/Core/Controller.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Core/Controller.cpp > CMakeFiles/client.dir/src/Core/Controller.cpp.i
 
 client/CMakeFiles/client.dir/src/Core/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Core/Controller.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Controller.cpp -o CMakeFiles/client.dir/src/Core/Controller.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Core/Controller.cpp -o CMakeFiles/client.dir/src/Core/Controller.cpp.s
 
 client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.o: ../client/src/Core/EventQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/EventQueue.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/EventQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/EventQueue.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Core/EventQueue.cpp
 
 client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Core/EventQueue.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/EventQueue.cpp > CMakeFiles/client.dir/src/Core/EventQueue.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Core/EventQueue.cpp > CMakeFiles/client.dir/src/Core/EventQueue.cpp.i
 
 client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Core/EventQueue.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/EventQueue.cpp -o CMakeFiles/client.dir/src/Core/EventQueue.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Core/EventQueue.cpp -o CMakeFiles/client.dir/src/Core/EventQueue.cpp.s
 
 client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o: ../client/src/Core/Message/EventMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/EventMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Core/Message/EventMessage.cpp
 
 client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/EventMessage.cpp > CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Core/Message/EventMessage.cpp > CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.i
 
 client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/EventMessage.cpp -o CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Core/Message/EventMessage.cpp -o CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.s
 
 client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o: ../client/src/Core/Message/InitMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/InitMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Core/Message/InitMessage.cpp
 
 client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/InitMessage.cpp > CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Core/Message/InitMessage.cpp > CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.i
 
 client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/InitMessage.cpp -o CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Core/Message/InitMessage.cpp -o CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.s
 
 client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.o: ../client/src/Core/Message/Message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/Message.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/Message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/Message.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Core/Message/Message.cpp
 
 client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Core/Message/Message.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/Message.cpp > CMakeFiles/client.dir/src/Core/Message/Message.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Core/Message/Message.cpp > CMakeFiles/client.dir/src/Core/Message/Message.cpp.i
 
 client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Core/Message/Message.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/Message.cpp -o CMakeFiles/client.dir/src/Core/Message/Message.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Core/Message/Message.cpp -o CMakeFiles/client.dir/src/Core/Message/Message.cpp.s
 
 client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o: ../client/src/Core/Message/PickMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/PickMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Core/Message/PickMessage.cpp
 
 client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/PickMessage.cpp > CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Core/Message/PickMessage.cpp > CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.i
 
 client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/PickMessage.cpp -o CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Core/Message/PickMessage.cpp -o CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.s
 
 client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o: ../client/src/Core/Message/TurnMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/TurnMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Core/Message/TurnMessage.cpp
 
 client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/TurnMessage.cpp > CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Core/Message/TurnMessage.cpp > CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.i
 
 client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Core/Message/TurnMessage.cpp -o CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Core/Message/TurnMessage.cpp -o CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.s
 
 client/CMakeFiles/client.dir/src/Main.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Main.cpp.o: ../client/src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object client/CMakeFiles/client.dir/src/Main.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Main.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object client/CMakeFiles/client.dir/src/Main.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Main.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Main.cpp
 
 client/CMakeFiles/client.dir/src/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Main.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Main.cpp > CMakeFiles/client.dir/src/Main.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Main.cpp > CMakeFiles/client.dir/src/Main.cpp.i
 
 client/CMakeFiles/client.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Main.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Main.cpp -o CMakeFiles/client.dir/src/Main.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Main.cpp -o CMakeFiles/client.dir/src/Main.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o: ../client/src/Model/Interface/Ability.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Ability.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Ability.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Ability.cpp > CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Ability.cpp > CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Ability.cpp -o CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Ability.cpp -o CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o: ../client/src/Model/Interface/AbilityConstants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/AbilityConstants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/AbilityConstants.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/AbilityConstants.cpp > CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/AbilityConstants.cpp > CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/AbilityConstants.cpp -o CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/AbilityConstants.cpp -o CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o: ../client/src/Model/Interface/CastAbility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/CastAbility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/CastAbility.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/CastAbility.cpp > CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/CastAbility.cpp > CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/CastAbility.cpp -o CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/CastAbility.cpp -o CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o: ../client/src/Model/Interface/Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Cell.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Cell.cpp > CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Cell.cpp > CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Cell.cpp -o CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Cell.cpp -o CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o: ../client/src/Model/Interface/Enumerations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Enumerations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Enumerations.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Enumerations.cpp > CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Enumerations.cpp > CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Enumerations.cpp -o CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Enumerations.cpp -o CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o: ../client/src/Model/Interface/GameConstants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/GameConstants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/GameConstants.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/GameConstants.cpp > CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/GameConstants.cpp > CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/GameConstants.cpp -o CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/GameConstants.cpp -o CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o: ../client/src/Model/Interface/Hero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Hero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Hero.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Hero.cpp > CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Hero.cpp > CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Hero.cpp -o CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Hero.cpp -o CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o: ../client/src/Model/Interface/HeroConstants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/HeroConstants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/HeroConstants.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/HeroConstants.cpp > CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/HeroConstants.cpp > CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/HeroConstants.cpp -o CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/HeroConstants.cpp -o CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o: ../client/src/Model/Interface/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Map.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/Map.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Map.cpp > CMakeFiles/client.dir/src/Model/Interface/Map.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Map.cpp > CMakeFiles/client.dir/src/Model/Interface/Map.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/Map.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/Map.cpp -o CMakeFiles/client.dir/src/Model/Interface/Map.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/Map.cpp -o CMakeFiles/client.dir/src/Model/Interface/Map.cpp.s
 
 client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.o: ../client/src/Model/Interface/World.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/World.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/World.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Model/Interface/World.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Model/Interface/World.cpp
 
 client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Model/Interface/World.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/World.cpp > CMakeFiles/client.dir/src/Model/Interface/World.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Model/Interface/World.cpp > CMakeFiles/client.dir/src/Model/Interface/World.cpp.i
 
 client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Model/Interface/World.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Model/Interface/World.cpp -o CMakeFiles/client.dir/src/Model/Interface/World.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Model/Interface/World.cpp -o CMakeFiles/client.dir/src/Model/Interface/World.cpp.s
 
 client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o: ../client/src/Network/FileDescriptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Network/FileDescriptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Network/FileDescriptor.cpp
 
 client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Network/FileDescriptor.cpp > CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Network/FileDescriptor.cpp > CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.i
 
 client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Network/FileDescriptor.cpp -o CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Network/FileDescriptor.cpp -o CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.s
 
 client/CMakeFiles/client.dir/src/Network/Network.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Network/Network.cpp.o: ../client/src/Network/Network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object client/CMakeFiles/client.dir/src/Network/Network.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Network/Network.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Network/Network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object client/CMakeFiles/client.dir/src/Network/Network.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Network/Network.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Network/Network.cpp
 
 client/CMakeFiles/client.dir/src/Network/Network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Network/Network.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Network/Network.cpp > CMakeFiles/client.dir/src/Network/Network.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Network/Network.cpp > CMakeFiles/client.dir/src/Network/Network.cpp.i
 
 client/CMakeFiles/client.dir/src/Network/Network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Network/Network.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Network/Network.cpp -o CMakeFiles/client.dir/src/Network/Network.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Network/Network.cpp -o CMakeFiles/client.dir/src/Network/Network.cpp.s
 
 client/CMakeFiles/client.dir/src/Utility/Logger.cpp.o: client/CMakeFiles/client.dir/flags.make
 client/CMakeFiles/client.dir/src/Utility/Logger.cpp.o: ../client/src/Utility/Logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object client/CMakeFiles/client.dir/src/Utility/Logger.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Utility/Logger.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/client/src/Utility/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object client/CMakeFiles/client.dir/src/Utility/Logger.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Utility/Logger.cpp.o -c /home/mohamad/game/mantra-cpp/client/src/Utility/Logger.cpp
 
 client/CMakeFiles/client.dir/src/Utility/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Utility/Logger.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/client/src/Utility/Logger.cpp > CMakeFiles/client.dir/src/Utility/Logger.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/client/src/Utility/Logger.cpp > CMakeFiles/client.dir/src/Utility/Logger.cpp.i
 
 client/CMakeFiles/client.dir/src/Utility/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Utility/Logger.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/client/src/Utility/Logger.cpp -o CMakeFiles/client.dir/src/Utility/Logger.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/client/src/Utility/Logger.cpp -o CMakeFiles/client.dir/src/Utility/Logger.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
@@ -396,8 +396,8 @@ client/client: client/CMakeFiles/client.dir/src/Utility/Logger.cpp.o
 client/client: client/CMakeFiles/client.dir/build.make
 client/client: jsoncpp/src/lib_json/libjsoncpp.a
 client/client: client/CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable client"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable client"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 client/CMakeFiles/client.dir/build: client/client
@@ -405,10 +405,10 @@ client/CMakeFiles/client.dir/build: client/client
 .PHONY : client/CMakeFiles/client.dir/build
 
 client/CMakeFiles/client.dir/clean:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client && $(CMAKE_COMMAND) -P CMakeFiles/client.dir/cmake_clean.cmake
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/client && $(CMAKE_COMMAND) -P CMakeFiles/client.dir/cmake_clean.cmake
 .PHONY : client/CMakeFiles/client.dir/clean
 
 client/CMakeFiles/client.dir/depend:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parham/Desktop/AIC19-Client-Cpp /home/parham/Desktop/AIC19-Client-Cpp/client /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohamad/game/mantra-cpp /home/mohamad/game/mantra-cpp/client /home/mohamad/game/mantra-cpp/cmake-build-debug /home/mohamad/game/mantra-cpp/cmake-build-debug/client /home/mohamad/game/mantra-cpp/cmake-build-debug/client/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : client/CMakeFiles/client.dir/depend
 

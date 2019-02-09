@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wconversion -Wshadow -Wextra -pedantic -Werror=strict-aliasi
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/include -I/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/../../include 
+CXX_INCLUDES = -I/home/mohamad/game/mantra-cpp/jsoncpp/include -I/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/../../include 
 

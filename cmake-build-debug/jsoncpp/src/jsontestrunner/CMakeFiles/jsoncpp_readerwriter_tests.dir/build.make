@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parham/Desktop/AIC19-Client-Cpp
+CMAKE_SOURCE_DIR = /home/mohamad/game/mantra-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mohamad/game/mantra-cpp/cmake-build-debug
 
 # Utility rule file for jsoncpp_readerwriter_tests.
 
@@ -55,7 +55,7 @@ include jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/pro
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests: jsoncpp/src/jsontestrunner/jsontestrunner_exe
 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests: jsoncpp/src/test_lib_json/jsoncpp_test
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && /usr/bin/python2 -B /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner/../../test/runjsontests.py /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/jsontestrunner_exe /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner/../../test/data
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && /usr/bin/python2 -B /home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner/../../test/runjsontests.py /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/jsontestrunner_exe /home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner/../../test/data
 
 jsoncpp_readerwriter_tests: jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests
 jsoncpp_readerwriter_tests: jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build.make
@@ -68,10 +68,10 @@ jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build: json
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/clean:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && $(CMAKE_COMMAND) -P CMakeFiles/jsoncpp_readerwriter_tests.dir/cmake_clean.cmake
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && $(CMAKE_COMMAND) -P CMakeFiles/jsoncpp_readerwriter_tests.dir/cmake_clean.cmake
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/clean
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/depend:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parham/Desktop/AIC19-Client-Cpp /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohamad/game/mantra-cpp /home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner /home/mohamad/game/mantra-cpp/cmake-build-debug /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/depend
 

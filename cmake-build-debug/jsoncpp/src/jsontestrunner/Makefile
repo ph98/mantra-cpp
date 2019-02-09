@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parham/Desktop/AIC19-Client-Cpp
+CMAKE_SOURCE_DIR = /home/mohamad/game/mantra-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mohamad/game/mantra-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,31 +59,31 @@ CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/61/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -94,19 +94,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/61/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/progress.marks
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles 0
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/progress.marks
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/clean
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/preinstall
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/preinstall
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/rule:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/rule
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/rule
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ jsoncpp_readerwriter_tests: jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_reader
 
 # fast build rule for target.
 jsoncpp_readerwriter_tests/fast:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests.dir/build
 .PHONY : jsoncpp_readerwriter_tests/fast
 
 # Convenience name for target.
 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/rule:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/rule
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/rule
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ jsontestrunner_exe: jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir
 
 # fast build rule for target.
 jsontestrunner_exe/fast:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build
 .PHONY : jsontestrunner_exe/fast
 
 # Convenience name for target.
 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/rule:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/rule
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/rule
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ jsoncpp_check: jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/rule
 
 # fast build rule for target.
 jsoncpp_check/fast:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/build
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check.dir/build
 .PHONY : jsoncpp_check/fast
 
 main.o: main.cpp.o
@@ -207,7 +207,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -216,7 +216,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -225,7 +225,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -257,6 +257,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

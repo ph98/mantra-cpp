@@ -8,15 +8,18 @@
 //        888       888 d88P     888 888    Y888     888     888   T88b d88P     888
 
 #include "AI.h"
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-void print(World *world) ;
+void print(World *world);
+
+
 
 void AI::preProcess(World *world) {
-    for(auto hero : world->getHeroConstants()){
-        world->pickHero(hero->getName());
-        cout<<hero->getName()<<endl ;
-    }
+
+
+
+
+
 }
 
 void AI::pick(World *world) {
@@ -28,18 +31,35 @@ void AI::move(World *world) {
 }
 
 void AI::action(World *world) {
-
+    print(world);
 }
+
+
+
+
+
 
 void print(World *world){
 
     for(auto rows : world->getMap().getCells()){
-        for(auto cell : rows ){
-            if(cell->isWall()){
-                cout << '#' ;
-            }else{
-                cout<<' ' ;
-            }
+        for(auto cell : rows )
+        {
+            if(cell->isWall())
+                cout << '#';
+
+
+            else if(cell->isInMyRespawnZone())
+                cout << "?";
+
+            else if(cell->isInObjectiveZone())
+                cout << "@";
+
+            else if(cell->isInOppRespawnZone())
+                cout<<"!";
+            else if(cell->isInVision())
+                cout << "V";
+            else
+                cout<<' ';
         }
         cout<<endl ;
     }

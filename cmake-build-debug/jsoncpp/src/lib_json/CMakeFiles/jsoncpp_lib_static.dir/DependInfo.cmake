@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_reader.cpp" "/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o"
-  "/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_value.cpp" "/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o"
-  "/home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/lib_json/json_writer.cpp" "/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o"
+  "/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_reader.cpp" "/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_reader.cpp.o"
+  "/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_value.cpp" "/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_value.cpp.o"
+  "/home/mohamad/game/mantra-cpp/jsoncpp/src/lib_json/json_writer.cpp" "/home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib_static.dir/json_writer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

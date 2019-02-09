@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parham/Desktop/AIC19-Client-Cpp
+CMAKE_SOURCE_DIR = /home/mohamad/game/mantra-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mohamad/game/mantra-cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/depend.make
@@ -59,16 +59,16 @@ include jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/flags.make
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.o: jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/flags.make
 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.o: ../jsoncpp/src/jsontestrunner/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.o"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jsontestrunner_exe.dir/main.cpp.o -c /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.o"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jsontestrunner_exe.dir/main.cpp.o -c /home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner/main.cpp
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jsontestrunner_exe.dir/main.cpp.i"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner/main.cpp > CMakeFiles/jsontestrunner_exe.dir/main.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner/main.cpp > CMakeFiles/jsontestrunner_exe.dir/main.cpp.i
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jsontestrunner_exe.dir/main.cpp.s"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner/main.cpp -o CMakeFiles/jsontestrunner_exe.dir/main.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner/main.cpp -o CMakeFiles/jsontestrunner_exe.dir/main.cpp.s
 
 # Object files for target jsontestrunner_exe
 jsontestrunner_exe_OBJECTS = \
@@ -81,8 +81,8 @@ jsoncpp/src/jsontestrunner/jsontestrunner_exe: jsoncpp/src/jsontestrunner/CMakeF
 jsoncpp/src/jsontestrunner/jsontestrunner_exe: jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build.make
 jsoncpp/src/jsontestrunner/jsontestrunner_exe: jsoncpp/src/lib_json/libjsoncpp.a
 jsoncpp/src/jsontestrunner/jsontestrunner_exe: jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable jsontestrunner_exe"
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jsontestrunner_exe.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable jsontestrunner_exe"
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jsontestrunner_exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build: jsoncpp/src/jsontestrunner/jsontestrunner_exe
@@ -90,10 +90,10 @@ jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build: jsoncpp/src/
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/build
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/clean:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && $(CMAKE_COMMAND) -P CMakeFiles/jsontestrunner_exe.dir/cmake_clean.cmake
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner && $(CMAKE_COMMAND) -P CMakeFiles/jsontestrunner_exe.dir/cmake_clean.cmake
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/clean
 
 jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/depend:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parham/Desktop/AIC19-Client-Cpp /home/parham/Desktop/AIC19-Client-Cpp/jsoncpp/src/jsontestrunner /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohamad/game/mantra-cpp /home/mohamad/game/mantra-cpp/jsoncpp/src/jsontestrunner /home/mohamad/game/mantra-cpp/cmake-build-debug /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner /home/mohamad/game/mantra-cpp/cmake-build-debug/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/depend
 

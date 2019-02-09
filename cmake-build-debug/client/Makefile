@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parham/Desktop/AIC19-Client-Cpp
+CMAKE_SOURCE_DIR = /home/mohamad/game/mantra-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mohamad/game/mantra-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,19 +59,19 @@ CMAKE_BINARY_DIR = /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/61/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -82,19 +82,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/61/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -115,25 +115,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/parham/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/client/CMakeFiles/progress.marks
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug/CMakeFiles 0
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles /home/mohamad/game/mantra-cpp/cmake-build-debug/client/CMakeFiles/progress.marks
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamad/game/mantra-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/clean
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/preinstall
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/preinstall
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 client/CMakeFiles/client.dir/rule:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/client.dir/rule
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/client.dir/rule
 .PHONY : client/CMakeFiles/client.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ client: client/CMakeFiles/client.dir/rule
 
 # fast build rule for target.
 client/fast:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/build
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/build
 .PHONY : client/fast
 
 src/AI/AI.o: src/AI/AI.cpp.o
@@ -177,7 +177,7 @@ src/AI/AI.o: src/AI/AI.cpp.o
 
 # target to build an object file
 src/AI/AI.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/AI/AI.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/AI/AI.cpp.o
 .PHONY : src/AI/AI.cpp.o
 
 src/AI/AI.i: src/AI/AI.cpp.i
@@ -186,7 +186,7 @@ src/AI/AI.i: src/AI/AI.cpp.i
 
 # target to preprocess a source file
 src/AI/AI.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/AI/AI.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/AI/AI.cpp.i
 .PHONY : src/AI/AI.cpp.i
 
 src/AI/AI.s: src/AI/AI.cpp.s
@@ -195,7 +195,7 @@ src/AI/AI.s: src/AI/AI.cpp.s
 
 # target to generate assembly for a file
 src/AI/AI.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/AI/AI.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/AI/AI.cpp.s
 .PHONY : src/AI/AI.cpp.s
 
 src/Core/Controller.o: src/Core/Controller.cpp.o
@@ -204,7 +204,7 @@ src/Core/Controller.o: src/Core/Controller.cpp.o
 
 # target to build an object file
 src/Core/Controller.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Controller.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Controller.cpp.o
 .PHONY : src/Core/Controller.cpp.o
 
 src/Core/Controller.i: src/Core/Controller.cpp.i
@@ -213,7 +213,7 @@ src/Core/Controller.i: src/Core/Controller.cpp.i
 
 # target to preprocess a source file
 src/Core/Controller.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Controller.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Controller.cpp.i
 .PHONY : src/Core/Controller.cpp.i
 
 src/Core/Controller.s: src/Core/Controller.cpp.s
@@ -222,7 +222,7 @@ src/Core/Controller.s: src/Core/Controller.cpp.s
 
 # target to generate assembly for a file
 src/Core/Controller.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Controller.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Controller.cpp.s
 .PHONY : src/Core/Controller.cpp.s
 
 src/Core/EventQueue.o: src/Core/EventQueue.cpp.o
@@ -231,7 +231,7 @@ src/Core/EventQueue.o: src/Core/EventQueue.cpp.o
 
 # target to build an object file
 src/Core/EventQueue.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.o
 .PHONY : src/Core/EventQueue.cpp.o
 
 src/Core/EventQueue.i: src/Core/EventQueue.cpp.i
@@ -240,7 +240,7 @@ src/Core/EventQueue.i: src/Core/EventQueue.cpp.i
 
 # target to preprocess a source file
 src/Core/EventQueue.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.i
 .PHONY : src/Core/EventQueue.cpp.i
 
 src/Core/EventQueue.s: src/Core/EventQueue.cpp.s
@@ -249,7 +249,7 @@ src/Core/EventQueue.s: src/Core/EventQueue.cpp.s
 
 # target to generate assembly for a file
 src/Core/EventQueue.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/EventQueue.cpp.s
 .PHONY : src/Core/EventQueue.cpp.s
 
 src/Core/Message/EventMessage.o: src/Core/Message/EventMessage.cpp.o
@@ -258,7 +258,7 @@ src/Core/Message/EventMessage.o: src/Core/Message/EventMessage.cpp.o
 
 # target to build an object file
 src/Core/Message/EventMessage.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.o
 .PHONY : src/Core/Message/EventMessage.cpp.o
 
 src/Core/Message/EventMessage.i: src/Core/Message/EventMessage.cpp.i
@@ -267,7 +267,7 @@ src/Core/Message/EventMessage.i: src/Core/Message/EventMessage.cpp.i
 
 # target to preprocess a source file
 src/Core/Message/EventMessage.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.i
 .PHONY : src/Core/Message/EventMessage.cpp.i
 
 src/Core/Message/EventMessage.s: src/Core/Message/EventMessage.cpp.s
@@ -276,7 +276,7 @@ src/Core/Message/EventMessage.s: src/Core/Message/EventMessage.cpp.s
 
 # target to generate assembly for a file
 src/Core/Message/EventMessage.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/EventMessage.cpp.s
 .PHONY : src/Core/Message/EventMessage.cpp.s
 
 src/Core/Message/InitMessage.o: src/Core/Message/InitMessage.cpp.o
@@ -285,7 +285,7 @@ src/Core/Message/InitMessage.o: src/Core/Message/InitMessage.cpp.o
 
 # target to build an object file
 src/Core/Message/InitMessage.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.o
 .PHONY : src/Core/Message/InitMessage.cpp.o
 
 src/Core/Message/InitMessage.i: src/Core/Message/InitMessage.cpp.i
@@ -294,7 +294,7 @@ src/Core/Message/InitMessage.i: src/Core/Message/InitMessage.cpp.i
 
 # target to preprocess a source file
 src/Core/Message/InitMessage.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.i
 .PHONY : src/Core/Message/InitMessage.cpp.i
 
 src/Core/Message/InitMessage.s: src/Core/Message/InitMessage.cpp.s
@@ -303,7 +303,7 @@ src/Core/Message/InitMessage.s: src/Core/Message/InitMessage.cpp.s
 
 # target to generate assembly for a file
 src/Core/Message/InitMessage.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/InitMessage.cpp.s
 .PHONY : src/Core/Message/InitMessage.cpp.s
 
 src/Core/Message/Message.o: src/Core/Message/Message.cpp.o
@@ -312,7 +312,7 @@ src/Core/Message/Message.o: src/Core/Message/Message.cpp.o
 
 # target to build an object file
 src/Core/Message/Message.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.o
 .PHONY : src/Core/Message/Message.cpp.o
 
 src/Core/Message/Message.i: src/Core/Message/Message.cpp.i
@@ -321,7 +321,7 @@ src/Core/Message/Message.i: src/Core/Message/Message.cpp.i
 
 # target to preprocess a source file
 src/Core/Message/Message.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.i
 .PHONY : src/Core/Message/Message.cpp.i
 
 src/Core/Message/Message.s: src/Core/Message/Message.cpp.s
@@ -330,7 +330,7 @@ src/Core/Message/Message.s: src/Core/Message/Message.cpp.s
 
 # target to generate assembly for a file
 src/Core/Message/Message.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/Message.cpp.s
 .PHONY : src/Core/Message/Message.cpp.s
 
 src/Core/Message/PickMessage.o: src/Core/Message/PickMessage.cpp.o
@@ -339,7 +339,7 @@ src/Core/Message/PickMessage.o: src/Core/Message/PickMessage.cpp.o
 
 # target to build an object file
 src/Core/Message/PickMessage.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.o
 .PHONY : src/Core/Message/PickMessage.cpp.o
 
 src/Core/Message/PickMessage.i: src/Core/Message/PickMessage.cpp.i
@@ -348,7 +348,7 @@ src/Core/Message/PickMessage.i: src/Core/Message/PickMessage.cpp.i
 
 # target to preprocess a source file
 src/Core/Message/PickMessage.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.i
 .PHONY : src/Core/Message/PickMessage.cpp.i
 
 src/Core/Message/PickMessage.s: src/Core/Message/PickMessage.cpp.s
@@ -357,7 +357,7 @@ src/Core/Message/PickMessage.s: src/Core/Message/PickMessage.cpp.s
 
 # target to generate assembly for a file
 src/Core/Message/PickMessage.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/PickMessage.cpp.s
 .PHONY : src/Core/Message/PickMessage.cpp.s
 
 src/Core/Message/TurnMessage.o: src/Core/Message/TurnMessage.cpp.o
@@ -366,7 +366,7 @@ src/Core/Message/TurnMessage.o: src/Core/Message/TurnMessage.cpp.o
 
 # target to build an object file
 src/Core/Message/TurnMessage.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.o
 .PHONY : src/Core/Message/TurnMessage.cpp.o
 
 src/Core/Message/TurnMessage.i: src/Core/Message/TurnMessage.cpp.i
@@ -375,7 +375,7 @@ src/Core/Message/TurnMessage.i: src/Core/Message/TurnMessage.cpp.i
 
 # target to preprocess a source file
 src/Core/Message/TurnMessage.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.i
 .PHONY : src/Core/Message/TurnMessage.cpp.i
 
 src/Core/Message/TurnMessage.s: src/Core/Message/TurnMessage.cpp.s
@@ -384,7 +384,7 @@ src/Core/Message/TurnMessage.s: src/Core/Message/TurnMessage.cpp.s
 
 # target to generate assembly for a file
 src/Core/Message/TurnMessage.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Core/Message/TurnMessage.cpp.s
 .PHONY : src/Core/Message/TurnMessage.cpp.s
 
 src/Main.o: src/Main.cpp.o
@@ -393,7 +393,7 @@ src/Main.o: src/Main.cpp.o
 
 # target to build an object file
 src/Main.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Main.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Main.cpp.o
 .PHONY : src/Main.cpp.o
 
 src/Main.i: src/Main.cpp.i
@@ -402,7 +402,7 @@ src/Main.i: src/Main.cpp.i
 
 # target to preprocess a source file
 src/Main.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Main.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Main.cpp.i
 .PHONY : src/Main.cpp.i
 
 src/Main.s: src/Main.cpp.s
@@ -411,7 +411,7 @@ src/Main.s: src/Main.cpp.s
 
 # target to generate assembly for a file
 src/Main.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Main.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
 src/Model/Interface/Ability.o: src/Model/Interface/Ability.cpp.o
@@ -420,7 +420,7 @@ src/Model/Interface/Ability.o: src/Model/Interface/Ability.cpp.o
 
 # target to build an object file
 src/Model/Interface/Ability.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.o
 .PHONY : src/Model/Interface/Ability.cpp.o
 
 src/Model/Interface/Ability.i: src/Model/Interface/Ability.cpp.i
@@ -429,7 +429,7 @@ src/Model/Interface/Ability.i: src/Model/Interface/Ability.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/Ability.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.i
 .PHONY : src/Model/Interface/Ability.cpp.i
 
 src/Model/Interface/Ability.s: src/Model/Interface/Ability.cpp.s
@@ -438,7 +438,7 @@ src/Model/Interface/Ability.s: src/Model/Interface/Ability.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/Ability.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Ability.cpp.s
 .PHONY : src/Model/Interface/Ability.cpp.s
 
 src/Model/Interface/AbilityConstants.o: src/Model/Interface/AbilityConstants.cpp.o
@@ -447,7 +447,7 @@ src/Model/Interface/AbilityConstants.o: src/Model/Interface/AbilityConstants.cpp
 
 # target to build an object file
 src/Model/Interface/AbilityConstants.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.o
 .PHONY : src/Model/Interface/AbilityConstants.cpp.o
 
 src/Model/Interface/AbilityConstants.i: src/Model/Interface/AbilityConstants.cpp.i
@@ -456,7 +456,7 @@ src/Model/Interface/AbilityConstants.i: src/Model/Interface/AbilityConstants.cpp
 
 # target to preprocess a source file
 src/Model/Interface/AbilityConstants.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.i
 .PHONY : src/Model/Interface/AbilityConstants.cpp.i
 
 src/Model/Interface/AbilityConstants.s: src/Model/Interface/AbilityConstants.cpp.s
@@ -465,7 +465,7 @@ src/Model/Interface/AbilityConstants.s: src/Model/Interface/AbilityConstants.cpp
 
 # target to generate assembly for a file
 src/Model/Interface/AbilityConstants.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/AbilityConstants.cpp.s
 .PHONY : src/Model/Interface/AbilityConstants.cpp.s
 
 src/Model/Interface/CastAbility.o: src/Model/Interface/CastAbility.cpp.o
@@ -474,7 +474,7 @@ src/Model/Interface/CastAbility.o: src/Model/Interface/CastAbility.cpp.o
 
 # target to build an object file
 src/Model/Interface/CastAbility.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.o
 .PHONY : src/Model/Interface/CastAbility.cpp.o
 
 src/Model/Interface/CastAbility.i: src/Model/Interface/CastAbility.cpp.i
@@ -483,7 +483,7 @@ src/Model/Interface/CastAbility.i: src/Model/Interface/CastAbility.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/CastAbility.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.i
 .PHONY : src/Model/Interface/CastAbility.cpp.i
 
 src/Model/Interface/CastAbility.s: src/Model/Interface/CastAbility.cpp.s
@@ -492,7 +492,7 @@ src/Model/Interface/CastAbility.s: src/Model/Interface/CastAbility.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/CastAbility.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/CastAbility.cpp.s
 .PHONY : src/Model/Interface/CastAbility.cpp.s
 
 src/Model/Interface/Cell.o: src/Model/Interface/Cell.cpp.o
@@ -501,7 +501,7 @@ src/Model/Interface/Cell.o: src/Model/Interface/Cell.cpp.o
 
 # target to build an object file
 src/Model/Interface/Cell.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.o
 .PHONY : src/Model/Interface/Cell.cpp.o
 
 src/Model/Interface/Cell.i: src/Model/Interface/Cell.cpp.i
@@ -510,7 +510,7 @@ src/Model/Interface/Cell.i: src/Model/Interface/Cell.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/Cell.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.i
 .PHONY : src/Model/Interface/Cell.cpp.i
 
 src/Model/Interface/Cell.s: src/Model/Interface/Cell.cpp.s
@@ -519,7 +519,7 @@ src/Model/Interface/Cell.s: src/Model/Interface/Cell.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/Cell.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Cell.cpp.s
 .PHONY : src/Model/Interface/Cell.cpp.s
 
 src/Model/Interface/Enumerations.o: src/Model/Interface/Enumerations.cpp.o
@@ -528,7 +528,7 @@ src/Model/Interface/Enumerations.o: src/Model/Interface/Enumerations.cpp.o
 
 # target to build an object file
 src/Model/Interface/Enumerations.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.o
 .PHONY : src/Model/Interface/Enumerations.cpp.o
 
 src/Model/Interface/Enumerations.i: src/Model/Interface/Enumerations.cpp.i
@@ -537,7 +537,7 @@ src/Model/Interface/Enumerations.i: src/Model/Interface/Enumerations.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/Enumerations.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.i
 .PHONY : src/Model/Interface/Enumerations.cpp.i
 
 src/Model/Interface/Enumerations.s: src/Model/Interface/Enumerations.cpp.s
@@ -546,7 +546,7 @@ src/Model/Interface/Enumerations.s: src/Model/Interface/Enumerations.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/Enumerations.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Enumerations.cpp.s
 .PHONY : src/Model/Interface/Enumerations.cpp.s
 
 src/Model/Interface/GameConstants.o: src/Model/Interface/GameConstants.cpp.o
@@ -555,7 +555,7 @@ src/Model/Interface/GameConstants.o: src/Model/Interface/GameConstants.cpp.o
 
 # target to build an object file
 src/Model/Interface/GameConstants.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.o
 .PHONY : src/Model/Interface/GameConstants.cpp.o
 
 src/Model/Interface/GameConstants.i: src/Model/Interface/GameConstants.cpp.i
@@ -564,7 +564,7 @@ src/Model/Interface/GameConstants.i: src/Model/Interface/GameConstants.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/GameConstants.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.i
 .PHONY : src/Model/Interface/GameConstants.cpp.i
 
 src/Model/Interface/GameConstants.s: src/Model/Interface/GameConstants.cpp.s
@@ -573,7 +573,7 @@ src/Model/Interface/GameConstants.s: src/Model/Interface/GameConstants.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/GameConstants.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/GameConstants.cpp.s
 .PHONY : src/Model/Interface/GameConstants.cpp.s
 
 src/Model/Interface/Hero.o: src/Model/Interface/Hero.cpp.o
@@ -582,7 +582,7 @@ src/Model/Interface/Hero.o: src/Model/Interface/Hero.cpp.o
 
 # target to build an object file
 src/Model/Interface/Hero.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.o
 .PHONY : src/Model/Interface/Hero.cpp.o
 
 src/Model/Interface/Hero.i: src/Model/Interface/Hero.cpp.i
@@ -591,7 +591,7 @@ src/Model/Interface/Hero.i: src/Model/Interface/Hero.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/Hero.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.i
 .PHONY : src/Model/Interface/Hero.cpp.i
 
 src/Model/Interface/Hero.s: src/Model/Interface/Hero.cpp.s
@@ -600,7 +600,7 @@ src/Model/Interface/Hero.s: src/Model/Interface/Hero.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/Hero.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Hero.cpp.s
 .PHONY : src/Model/Interface/Hero.cpp.s
 
 src/Model/Interface/HeroConstants.o: src/Model/Interface/HeroConstants.cpp.o
@@ -609,7 +609,7 @@ src/Model/Interface/HeroConstants.o: src/Model/Interface/HeroConstants.cpp.o
 
 # target to build an object file
 src/Model/Interface/HeroConstants.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.o
 .PHONY : src/Model/Interface/HeroConstants.cpp.o
 
 src/Model/Interface/HeroConstants.i: src/Model/Interface/HeroConstants.cpp.i
@@ -618,7 +618,7 @@ src/Model/Interface/HeroConstants.i: src/Model/Interface/HeroConstants.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/HeroConstants.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.i
 .PHONY : src/Model/Interface/HeroConstants.cpp.i
 
 src/Model/Interface/HeroConstants.s: src/Model/Interface/HeroConstants.cpp.s
@@ -627,7 +627,7 @@ src/Model/Interface/HeroConstants.s: src/Model/Interface/HeroConstants.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/HeroConstants.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/HeroConstants.cpp.s
 .PHONY : src/Model/Interface/HeroConstants.cpp.s
 
 src/Model/Interface/Map.o: src/Model/Interface/Map.cpp.o
@@ -636,7 +636,7 @@ src/Model/Interface/Map.o: src/Model/Interface/Map.cpp.o
 
 # target to build an object file
 src/Model/Interface/Map.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.o
 .PHONY : src/Model/Interface/Map.cpp.o
 
 src/Model/Interface/Map.i: src/Model/Interface/Map.cpp.i
@@ -645,7 +645,7 @@ src/Model/Interface/Map.i: src/Model/Interface/Map.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/Map.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.i
 .PHONY : src/Model/Interface/Map.cpp.i
 
 src/Model/Interface/Map.s: src/Model/Interface/Map.cpp.s
@@ -654,7 +654,7 @@ src/Model/Interface/Map.s: src/Model/Interface/Map.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/Map.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/Map.cpp.s
 .PHONY : src/Model/Interface/Map.cpp.s
 
 src/Model/Interface/World.o: src/Model/Interface/World.cpp.o
@@ -663,7 +663,7 @@ src/Model/Interface/World.o: src/Model/Interface/World.cpp.o
 
 # target to build an object file
 src/Model/Interface/World.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.o
 .PHONY : src/Model/Interface/World.cpp.o
 
 src/Model/Interface/World.i: src/Model/Interface/World.cpp.i
@@ -672,7 +672,7 @@ src/Model/Interface/World.i: src/Model/Interface/World.cpp.i
 
 # target to preprocess a source file
 src/Model/Interface/World.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.i
 .PHONY : src/Model/Interface/World.cpp.i
 
 src/Model/Interface/World.s: src/Model/Interface/World.cpp.s
@@ -681,7 +681,7 @@ src/Model/Interface/World.s: src/Model/Interface/World.cpp.s
 
 # target to generate assembly for a file
 src/Model/Interface/World.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Model/Interface/World.cpp.s
 .PHONY : src/Model/Interface/World.cpp.s
 
 src/Network/FileDescriptor.o: src/Network/FileDescriptor.cpp.o
@@ -690,7 +690,7 @@ src/Network/FileDescriptor.o: src/Network/FileDescriptor.cpp.o
 
 # target to build an object file
 src/Network/FileDescriptor.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.o
 .PHONY : src/Network/FileDescriptor.cpp.o
 
 src/Network/FileDescriptor.i: src/Network/FileDescriptor.cpp.i
@@ -699,7 +699,7 @@ src/Network/FileDescriptor.i: src/Network/FileDescriptor.cpp.i
 
 # target to preprocess a source file
 src/Network/FileDescriptor.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.i
 .PHONY : src/Network/FileDescriptor.cpp.i
 
 src/Network/FileDescriptor.s: src/Network/FileDescriptor.cpp.s
@@ -708,7 +708,7 @@ src/Network/FileDescriptor.s: src/Network/FileDescriptor.cpp.s
 
 # target to generate assembly for a file
 src/Network/FileDescriptor.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/FileDescriptor.cpp.s
 .PHONY : src/Network/FileDescriptor.cpp.s
 
 src/Network/Network.o: src/Network/Network.cpp.o
@@ -717,7 +717,7 @@ src/Network/Network.o: src/Network/Network.cpp.o
 
 # target to build an object file
 src/Network/Network.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/Network.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/Network.cpp.o
 .PHONY : src/Network/Network.cpp.o
 
 src/Network/Network.i: src/Network/Network.cpp.i
@@ -726,7 +726,7 @@ src/Network/Network.i: src/Network/Network.cpp.i
 
 # target to preprocess a source file
 src/Network/Network.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/Network.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/Network.cpp.i
 .PHONY : src/Network/Network.cpp.i
 
 src/Network/Network.s: src/Network/Network.cpp.s
@@ -735,7 +735,7 @@ src/Network/Network.s: src/Network/Network.cpp.s
 
 # target to generate assembly for a file
 src/Network/Network.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/Network.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Network/Network.cpp.s
 .PHONY : src/Network/Network.cpp.s
 
 src/Utility/Logger.o: src/Utility/Logger.cpp.o
@@ -744,7 +744,7 @@ src/Utility/Logger.o: src/Utility/Logger.cpp.o
 
 # target to build an object file
 src/Utility/Logger.cpp.o:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Utility/Logger.cpp.o
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Utility/Logger.cpp.o
 .PHONY : src/Utility/Logger.cpp.o
 
 src/Utility/Logger.i: src/Utility/Logger.cpp.i
@@ -753,7 +753,7 @@ src/Utility/Logger.i: src/Utility/Logger.cpp.i
 
 # target to preprocess a source file
 src/Utility/Logger.cpp.i:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Utility/Logger.cpp.i
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Utility/Logger.cpp.i
 .PHONY : src/Utility/Logger.cpp.i
 
 src/Utility/Logger.s: src/Utility/Logger.cpp.s
@@ -762,7 +762,7 @@ src/Utility/Logger.s: src/Utility/Logger.cpp.s
 
 # target to generate assembly for a file
 src/Utility/Logger.cpp.s:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Utility/Logger.cpp.s
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(MAKE) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/src/Utility/Logger.cpp.s
 .PHONY : src/Utility/Logger.cpp.s
 
 # Help Target
@@ -855,6 +855,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/parham/Desktop/AIC19-Client-Cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mohamad/game/mantra-cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
