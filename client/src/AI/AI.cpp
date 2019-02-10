@@ -22,13 +22,18 @@ void AI::pick(World *world) {
 }
 
 void AI::move(World *world) {
-    for(auto hero : world->getMyHeroes() ){
-        auto  temp = Direction(rand()%4);
-        world->moveHero(hero->getId() ,  temp );
-        cout<< "name: "<< hero->getId() << " -> "<< temp << endl ;
-    }
+//    for(auto hero : world->getMyHeroes() ){
+//        auto  temp = Direction(rand()%4);
+//        world->moveHero(hero->getId() ,  temp );
+//        cout<< "name: "<< hero->getId() << " -> "<< temp << endl ;
+//    }
 }
 
 void AI::action(World *world) {
     print_map(world);
+    world->castAbility(1,world->getHero(1).getAbilities()[0], world->getHero(1).getCurrentCell().getColumn() + 2 ,world->getHero(1).getCurrentCell().getRow() + 2   );
+    cout<< world->getAP() << endl ;
+    for(auto ab : world->getMyCastAbilities() ){
+        cout<< "abilitys : " <<  ab->getAbilityName() <<endl ;
+    }
 }
