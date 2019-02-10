@@ -28,7 +28,7 @@ make
 
 algorithm we can think about it : 
 
-A* for move 
+### A* for move 
 
 1. if else weighted graph .
 2. Nerual Network 
@@ -37,3 +37,8 @@ A* for move
 
 
 
+## functions we need by now : 
+1. print the whole map (done)
+2. move with A* - shortest path 
+3. get dengerouse zone by point - from enemy's heros position
+4. some scrip for auto pilot:)
