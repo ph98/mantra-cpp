@@ -16,7 +16,14 @@ make
 ./client/client
 ```
 
+algorithm we can think about it : 
 
+A* for move 
+
+1. if else weighted graph .
+2. Nerual Network 
+3. CGA ( what is C ? ) 
+4. HMM ( is checking... ) 
 
 
 
