@@ -10,11 +10,14 @@
 #include "AI.h"
 #include <bits/stdc++.h>
 #include "AI/tools/tools.h"
+#include "AI/Astar/Astar.h"
 
 using namespace std;
 
 void AI::preProcess(World *world) {
 //    world->getMap().getObjectiveZone()[0].
+    print_map(world);
+
 }
 
 void AI::pick(World *world) {
@@ -30,10 +33,17 @@ void AI::move(World *world) {
 }
 
 void AI::action(World *world) {
-    print_map(world);
-    world->castAbility(1,world->getHero(1).getAbilities()[0], world->getHero(1).getCurrentCell().getColumn() + 2 ,world->getHero(1).getCurrentCell().getRow() + 2   );
-    cout<< world->getAP() << endl ;
-    for(auto ab : world->getMyCastAbilities() ){
-        cout<< "abilitys : " <<  ab->getAbilityName() <<endl ;
-    }
+//    print_map(world);
+//    world->castAbility(1,world->getHero(1).getAbilities()[0], world->getHero(1).getCurrentCell().getColumn() + 2 ,world->getHero(1).getCurrentCell().getRow() + 2   );
+//    cout<< world->getAP() << endl ;
+//    for(auto ab : world->getMyCastAbilities() ){
+//        cout<< "abilitys : " <<  ab->getAbilityName() <<endl ;
+//    }
+    Astar myAstar ;
+    vector<Cell> ans ;
+    ans = myAstar.calcPath(world , world->getMyHeroes()[0]->getCurrentCell() , world->getMap().getObjectiveZone()[0]);
+    cout<<"================== A* path : " <<endl ;
+    for(auto each : ans)
+        cout<<each.getRow() << "," << each.getColumn() <<endl ;
+
 }

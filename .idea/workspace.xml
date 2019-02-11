@@ -2,12 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="AIC19-Client-Cpp" targetName="jsoncpp_readerwriter_tests" />
-      <config projectName="AIC19-Client-Cpp" targetName="client" />
       <config projectName="AIC19-Client-Cpp" targetName="jsoncpp_lib_static" />
+      <config projectName="AIC19-Client-Cpp" targetName="jsoncpp_readerwriter_tests" />
       <config projectName="AIC19-Client-Cpp" targetName="jsoncpp_test" />
-      <config projectName="AIC19-Client-Cpp" targetName="jsontestrunner_exe" />
+      <config projectName="AIC19-Client-Cpp" targetName="client" />
       <config projectName="AIC19-Client-Cpp" targetName="jsoncpp_check" />
+      <config projectName="AIC19-Client-Cpp" targetName="jsontestrunner_exe" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -17,6 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7058817-a68a-4190-b67c-1291c837ecf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/AI/Astar/Astar.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/AI/Astar/Astar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/AI/AI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AI/AI.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -46,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/AI/AI.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="192">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#681#696#0" expanded="true" />
               </folding>
@@ -56,9 +59,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/AI/Astar/Astar.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/AI/tools/tools.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="150">
               <caret line="10" column="46" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
@@ -90,10 +98,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-43" />
-    <option name="y" value="107" />
-    <option name="width" value="872" />
-    <option name="height" value="508" />
+    <option name="x" value="215" />
+    <option name="y" value="117" />
+    <option name="width" value="985" />
+    <option name="height" value="522" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,7 +141,7 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AI" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="Astar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,11 +151,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newAIC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/AI" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,11 +231,12 @@
       <workItem from="1549714656975" duration="34000" />
       <workItem from="1549715374841" duration="3683000" />
       <workItem from="1549719808314" duration="12887000" />
+      <workItem from="1549917253530" duration="526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22225000" />
+    <option name="totallyTimeSpent" value="22751000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,10 +248,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="0" width="1318" height="768" extended-state="6" />
+    <frame x="51" y="-4" width="1315" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26650944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2710796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,7 +262,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921384" weight="0.3286385" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49921384" weight="0.6635368" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49921384" visible="true" weight="0.4124031" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49921384" weight="0.3286385" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007862" side_tool="true" weight="0.3286385" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49842766" weight="0.3286385" />
@@ -367,13 +381,6 @@
     <entry file="file://$PROJECT_DIR$/client/src/Utility/Utility.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Model/Interface/World.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="583" column="58" selection-start-line="583" selection-start-column="40" selection-end-line="583" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/AI/tools/tools.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -391,17 +398,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/AI/Astar/Astar.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/AI/tools/tools.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="150">
           <caret line="10" column="46" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Model/Interface/World.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Core/Message/PickMessage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/AI/AI.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="192">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#681#696#0" expanded="true" />
           </folding>
