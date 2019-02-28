@@ -5,14 +5,17 @@
 //    888  Y8P  888   d88P   888 888  Y88888     888     888 T88b     d88P   888
 //    888   "   888  d8888888888 888   Y8888     888     888  T88b   d8888888888
 //    888       888 d88P     888 888    Y888     888     888   T88b d88P     888
+
 #include <bits/stdc++.h>
 #include "AI.h"
+#include "AI/tools/tools.h"
+#include "AI/fill/fill.h"
 
 using namespace std;
 
 void AI::preProcess(World *world) {
-
-}
+    print_map(world);
+}   
 
 void AI::pick(World *world) {
  
