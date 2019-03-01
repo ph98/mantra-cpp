@@ -30,22 +30,46 @@ void fill_map_weights(World *world   , mycell my_map[][MAX_HEIGHT]){
                 my_map[i][j].weight[ability->getName()] = 0;
 
     // fill the weights : 
-    for(int i = 0; i < world->getMap().getColumnNum(); i++){
-        for(int j = 0; j < world->getMap().getRowNum() ; j++){
+        for(auto cell : world->getMap().getObjectiveZone() ){
+            int i = cell->getRow() ;
+            int j = cell->getColumn() ;
             // for(auto ability : world->getAbilityConstants() ){
-                int Range = world->getAbilityConstants()[BLASTER_BOMB]->getRange() ;
+                // BLASTER_BOMB
+                int Range = 2 ;
                 for(int i1 = -Range; i1 <= +Range; i1++)
                     for(int j1 = -Range; j1 <= +Range; j1++)
                     {
                         if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range )
                             if( world->getOppHero(i + i1 , j + j1 ).getCurrentHP() > 0 ){
-                                cout<<"hp" << world->getOppHero(i + i1 , j + j1 ).getCurrentHP()<<endl; 
+                                // cout<<"hp" << world->getOppHero(i + i1 , j + j1 ).getCurrentHP()<<endl; 
                                 my_map[i][j].weight[BLASTER_BOMB] += ( constants.max_attack_weight - world->getOppHero(i + i1 , j + j1 ).getCurrentHP()  );
                             }
                     }
+                // BLASTER_ATTACK
+                Range = 1 ;
+                for(int i1 = -Range; i1 <= +Range; i1++)
+                    for(int j1 = -Range; j1 <= +Range; j1++)
+                    {
+                        if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range )
+                            if( world->getOppHero(i + i1 , j + j1 ).getCurrentHP() > 0 ){
+                                // cout<<"hp" << world->getOppHero(i + i1 , j + j1 ).getCurrentHP()<<endl; 
+                                my_map[i][j].weight[BLASTER_ATTACK] += ( constants.max_attack_weight - world->getOppHero(i + i1 , j + j1 ).getCurrentHP()  );
+                            }
+                    }
             // }
+        }
+         
+        int i =0;
+        int j =0;
+        cout<<endl;
+        for(auto cell : world->getMap().getObjectiveZone() ){
+            if(cell->getRow() != i) cout<<endl ;
+            i = cell->getRow() ;
+            j = cell->getColumn() ;
+
+            cout<< setw(5) << my_map[i][j].weight[BLASTER_ATTACK];
 
         }
-    }
+        cout<<endl; 
     // cout<<"1" ;
 }

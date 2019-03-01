@@ -28,18 +28,30 @@ void AI::pick(World *world) {
 }
 void AI::move(World *world) {
     // print_map(world);
+    
     for(auto hero : world->getMyHeroes() ){
-        int heroRow = hero->getCurrentCell().getRow() ;
-        int heroCol = hero->getCurrentCell().getColumn() ; 
-        if(my_map[heroRow][heroCol].dist_to_objective >= 2 ){
-            world->moveHero(hero->getId() ,my_map[heroRow][heroCol].PATH[0] ) ;
+        if( !hero->getRemRespawnTime() ){
+
+            int heroRow = hero->getCurrentCell().getRow() ;
+            int heroCol = hero->getCurrentCell().getColumn() ; 
+            // if( hero->getCurrentCell().isInObjectiveZone() && hero->getAbility(BLASTER_BOMB).getRemCooldown() )
+            // {
+            //     auto direct = world->getPathMoveDirections(hero->getCurrentCell().getRow(),
+            //     hero->getCurrentCell().getColumn(),constants1.distination_row,constants1.distination_col) ;
+            //     if( direct.size() >= 2  ){
+            //         world->moveHero(hero->getId() , direct[0]) ;    
+            //     } 
+            // }
+            if(my_map[heroRow][heroCol].dist_to_objective >= 2 ){
+                world->moveHero(hero->getId() ,my_map[heroRow][heroCol].PATH[0] ) ;
+            }
         }
     }
 }
 
 
 void AI::action(World *world) {
-    // print_map(world);
+    print_map(world);
 
     fill_map_weights(world ,  my_map);
 
@@ -57,28 +69,59 @@ void AI::action(World *world) {
             maxScore = my_map[cell->getRow()][cell->getColumn()].weight[BLASTER_BOMB] ;
             constants1.distination_row = cell->getRow() ;
             constants1.distination_col = cell->getColumn() ;
-        }
+           }
     }
-
+    //  cout<< constants1.distination_row << " " << constants1.distination_col << " " << 
+            // world->getMap().getCell(constants1.distination_row ,constants1.distination_col).isWall() <<endl;
+        
     for(auto hero : world->getMyHeroes()){
-        int target_col =0 ; 
-        int target_row =0 ; 
-        int max_target = 0 ; 
-        int Range = world->getAbilityConstants()[BLASTER_BOMB]->getRange() ;
-        int i = hero->getCurrentCell().getRow() ;
-        int j = hero->getCurrentCell().getColumn() ;
+        int target_col =-1 ; 
+        int target_row =-1 ; 
+        int max_target = -1 ; 
+        // cout<< hero->getId() << "==> " <<  hero->getAbility(BLASTER_BOMB).getRemCooldown() <<endl ;
+        if(!hero->getAbility(BLASTER_BOMB).getRemCooldown())
+        {
+            int Range = world->getAbilityConstants()[BLASTER_BOMB]->getRange() ;
+            int i = hero->getCurrentCell().getRow() ;
+            int j = hero->getCurrentCell().getColumn() ;
 
-        for(int i1 = -Range; i1 <= +Range; i1++)
-            for(int j1 = -Range; j1 <= +Range; j1++)
-            {
-                if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range )
-                    if(max_target <= my_map[i + i1][j+ j1].weight[BLASTER_BOMB] ){
-                        max_target = my_map[i + i1][j+ j1].weight[BLASTER_BOMB] ;
-                        target_row = i + i1 ;
-                        target_col = j+ j1 ;
-                    }
-            }
-        world->castAbility(hero->getId() , BLASTER_BOMB , target_row , target_col);
+            for(int i1 = -Range; i1 <= +Range; i1++)
+                for(int j1 = -Range; j1 <= +Range; j1++)
+                {
+                    if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range )
+                        if(max_target <= my_map[i + i1][j+ j1].weight[BLASTER_BOMB] ){
+                            max_target = my_map[i + i1][j+ j1].weight[BLASTER_BOMB] ;
+                            target_row = i + i1 ;
+                            target_col = j + j1 ;
+                        }
+                }
+                if(target_col > -1 && my_map[target_row][target_col].weight[BLASTER_ATTACK]>0 )
+                    world->castAbility(hero->getId() , BLASTER_BOMB , target_row , target_col);
+        }
+        if( !hero->getAbility(BLASTER_ATTACK).getRemCooldown() )
+        {
+            int Range = world->getAbilityConstants()[BLASTER_ATTACK]->getRange() ;
+            int i = hero->getCurrentCell().getRow() ;
+            int j = hero->getCurrentCell().getColumn() ;
+
+            for(int i1 = -Range; i1 <= +Range; i1++)
+                for(int j1 = -Range; j1 <= +Range; j1++)
+                {
+                    if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range 
+                        && world->isInVision(i,j, i + i1 ,  j+j1 )
+                    )
+                        if(max_target <= my_map[i + i1][j+ j1].weight[BLASTER_ATTACK] ){
+                            max_target = my_map[i + i1][j+ j1].weight[BLASTER_ATTACK] ;
+                            target_row = i + i1 ;
+                            target_col = j+ j1 ;
+                        }
+                }
+                cout<<target_row << " " << target_col <<endl ;
+                if( target_col > -1 && my_map[target_row][target_col].weight[BLASTER_ATTACK]>0 && world->isInVision(i , j , target_row , target_col))
+                    world->castAbility(hero->getId() , BLASTER_ATTACK , target_row , target_col);
+        }
+    
     }
+
 
 }
