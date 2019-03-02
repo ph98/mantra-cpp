@@ -75,8 +75,8 @@ void AI::action(World *world) {
             // world->getMap().getCell(constants1.distination_row ,constants1.distination_col).isWall() <<endl;
         
     for(auto hero : world->getMyHeroes()){
-        int target_col =-1 ; 
-        int target_row =-1 ; 
+        int target_col = -1 ; 
+        int target_row = -1 ; 
         int max_target = -1 ; 
         // cout<< hero->getId() << "==> " <<  hero->getAbility(BLASTER_BOMB).getRemCooldown() <<endl ;
         if(!hero->getRemRespawnTime())

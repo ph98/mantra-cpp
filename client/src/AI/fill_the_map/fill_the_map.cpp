@@ -34,28 +34,33 @@ void fill_map_weights(World *world   , mycell my_map[][MAX_HEIGHT]){
             int i = cell->getRow() ;
             int j = cell->getColumn() ;
             // for(auto ability : world->getAbilityConstants() ){
-                // BLASTER_BOMB
-                int Range = 2 ;
-                for(int i1 = -Range; i1 <= +Range; i1++)
-                    for(int j1 = -Range; j1 <= +Range; j1++)
-                    {
-                        if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range )
-                            if( world->getOppHero(i + i1 , j + j1 ).getCurrentHP() > 0 ){
-                                // cout<<"hp" << world->getOppHero(i + i1 , j + j1 ).getCurrentHP()<<endl; 
-                                my_map[i][j].weight[BLASTER_BOMB] += ( constants.max_attack_weight - world->getOppHero(i + i1 , j + j1 ).getCurrentHP()  );
-                            }
-                    }
-                // BLASTER_ATTACK
-                Range = 1 ;
-                for(int i1 = -Range; i1 <= +Range; i1++)
-                    for(int j1 = -Range; j1 <= +Range; j1++)
-                    {
-                        if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range )
-                            if( world->getOppHero(i + i1 , j + j1 ).getCurrentHP() > 0 ){
-                                // cout<<"hp" << world->getOppHero(i + i1 , j + j1 ).getCurrentHP()<<endl; 
-                                my_map[i][j].weight[BLASTER_ATTACK] += ( constants.max_attack_weight - world->getOppHero(i + i1 , j + j1 ).getCurrentHP()  );
-                            }
-                    }
+            // BLASTER_BOMB
+            int Range = 2 ;
+            for(int i1 = -Range; i1 <= +Range; i1++)
+                for(int j1 = -Range; j1 <= +Range; j1++)
+                {
+                    if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range )
+                        if( world->getOppHero(i + i1 , j + j1 ).getCurrentHP() > 0 ){
+                            // cout<<"hp" << world->getOppHero(i + i1 , j + j1 ).getCurrentHP()<<endl; 
+                            my_map[i][j].weight[BLASTER_BOMB] += ( constants.max_attack_weight - world->getOppHero(i + i1 , j + j1 ).getCurrentHP()  );
+                        }
+                }
+            // BLASTER_ATTACK
+            Range = 1 ;
+            for(int i1 = -Range; i1 <= +Range; i1++)
+                for(int j1 = -Range; j1 <= +Range; j1++)
+                {
+                    if( world->getMap().isInMap(i + i1 , j+j1) && world->manhattanDistance(i , j , i1 , j1 ) <= Range )
+                        if( world->getOppHero(i + i1 , j + j1 ).getCurrentHP() > 0 ){
+                            // cout<<"hp" << world->getOppHero(i + i1 , j + j1 ).getCurrentHP()<<endl; 
+                            my_map[i][j].weight[BLASTER_ATTACK] += ( constants.max_attack_weight - world->getOppHero(i + i1 , j + j1 ).getCurrentHP()  );
+                        }
+                }
+            // Healer Attack 
+            
+
+
+                // 
             // }
         }
          
